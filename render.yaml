@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: american-youtube-monetization-checker
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: YOUTUBE_API_KEY
+        sync: false

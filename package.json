@@ -1,0 +1,1 @@
+{"name":"american-youtube-monetization-checker","version":"1.0.0","private":true,"description":"YouTube channel public-signal checker","scripts":{"start":"node server.js"},"engines":{"node":">=18"}}
